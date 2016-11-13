@@ -1,0 +1,16 @@
+<view class="index">
+    <view class="head">
+        <view class="title">小程序学习</view>
+        <view class="desc">相信在小程序推出公测之后，很多小伙伴都已经抓紧申请注册小程序了。在开发阶段中也碰到了很多的问题，例如`wx.request`数据请求不成功，在数组操作时，不知道如何往数组里push数据，input如何监听用户输入的状态，css的background-image无法获取本地资源等等，本博客会出一个专题，给碰到这些问题的小伙伴解决思路。</view>
+    </view>
+
+    <view class="body">
+        <view class="widgets">
+            <navigator url="/pages/array/array" class="widget">
+               <text class="widget__name">
+               	1、数组操作
+               </text>            
+            </navigator>
+        </view>
+    </view>
+</view>

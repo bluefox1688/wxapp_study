@@ -1,0 +1,109 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  
+  padding: 50rpx 10px;
+  box-sizing: border-box;
+} 
+
+.martop15 {
+	margin-top: 15px;
+}
+.martop20 {
+	margin-top: 20px;
+}
+.martop5 {
+	margin-top: 5px;
+}
+.martop10 {
+	margin-top: 10px;
+}
+.mt0{
+	
+margin-top: 0;	
+}
+.pad15 {
+	padding: 15px;
+}
+.pad20 {
+	padding: 20px;
+}
+.pad10 {
+	padding: 10px;
+}
+.pad5 {
+	padding: 5px;
+}
+.pt15{
+	padding-top: 15px;
+}
+.pt0{
+	padding-top: 0px;
+}
+.pl5{
+	padding-left: 5px;
+}
+.pr5{
+	padding-right: 5px;
+	
+}
+
+
+
+.marlr {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.marlr2 {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.marlr10 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.textright{
+	text-align: right;
+}
+.textcenter{
+	text-align: center;
+}
+
+.font10{
+	font-size: 10px;
+}
+.font12{
+	font-size: 12px;
+}
+.font14{
+	font-size: 14px;
+}
+.font16{
+	font-size: 16px;
+}
+.font18{
+	font-size: 18px;
+}
+.font20{
+	font-size: 20px;
+}
+.font24{
+	font-size: 24px;
+}
+.font28{
+	font-size: 28px;
+}
+.font34{
+	font-size: 34px;
+}
+.color888{
+	color: #888;
+}
+.color444{
+	color: #444;
+}
+.color666{
+	color: #666;
+}

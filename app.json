@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/array/array",
+    "pages/studylist/studylist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#EFEFEF"
+  },
+  "tabBar": {
+  	"selectedColor":"#48C23D",
+  	"borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/studylist/studylist",
+      "text": "学习教程列表"
+    }]
+  },
+  "debug":true
+}

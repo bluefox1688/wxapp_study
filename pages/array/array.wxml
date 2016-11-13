@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+
+
+<view wx:for="{{list}}" wx:key="this" style="padding: 10px 0;border-bottom: 1px solid #ddd;">
+	
+	
+	<view>
+		{{index+1}}、{{item.name}}
+	</view>
+	
+	<view class="textright font12" style="color: #2A53CD;">
+		 <text bindtap="remove" data-index="{{index}}" class="marlr10">删除</text>	
+		 <text bindtap="edit" data-index="{{index}}" >修改</text>	
+	</view>
+	
+</view>
+
+
+
+<button class="martop20" bindtap="add_before">
+	向前插入数组
+</button>
+
+<button class="martop20" bindtap="add_after">
+	向后插入数组
+</button>
+
+<button class="martop20" bindtap="clear">
+	清空数组
+</button>
+
+
+</view>
