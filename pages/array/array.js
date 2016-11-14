@@ -101,7 +101,7 @@ Page({
   clear:function (){
   	
   	this.setData({
-  		list:{}
+  		list:[]
   	});
   	
   }
