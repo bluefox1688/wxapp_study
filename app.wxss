@@ -107,3 +107,27 @@ margin-top: 0;
 .color666{
 	color: #666;
 }
+
+
+.titlebox{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32rpx;
+	padding: 20rpx;
+	border-bottom: 1rpx solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

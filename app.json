@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/array/array",
-    "pages/studylist/studylist"
+    "pages/studylist/studylist",
+    "pages/listforeach/listforeach"
   ],
   "window":{
     "backgroundTextStyle":"light",

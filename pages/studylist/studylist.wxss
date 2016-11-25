@@ -9,6 +9,9 @@
     padding: 80rpx;
     line-height: 1;
 }
+page{
+	background: #FBF9FE;
+}
 .body{
     padding-left: 30rpx;
     padding-right: 30rpx;
@@ -60,10 +63,11 @@
 }
 .widget{
     position: relative;
-    padding-top: 26rpx;
+    padding-top: 0rpx;
     padding-bottom: 26rpx;
     padding-left: 40rpx;
     padding-right: 40rpx;
+    border-bottom: 1px solid #ddd;
 }
 .widget__arrow{
     position: absolute;

@@ -6,8 +6,11 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     list: [{
-        page: 'arrary',
+        page: 'array',
         name: '数组操作'
+     },{
+        page: 'listforeach',
+        name: '列表多层循环'
      }]
   },
   onLoad: function () {

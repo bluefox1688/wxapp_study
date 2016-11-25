@@ -6,9 +6,9 @@
 
     <view class="body">
         <view class="widgets">
-            <navigator url="/pages/array/array" class="widget">
+            <navigator wx:for="{{list}}" wx:key="{{this}}" url="/pages/{{item.page}}/{{item.page}}" class="widget">
                <text class="widget__name">
-               	1、数组操作
+               	{{index+1}}、{{item.name}}
                </text>            
             </navigator>
         </view>

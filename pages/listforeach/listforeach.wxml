@@ -1,0 +1,112 @@
+
+<view class="container">
+	
+<view>
+	<view class="titlebox">
+		1、一层循环
+	</view>
+	
+	<view class="martop15">
+		
+		<view wx:for="{{oneList}}" wx:key="id">
+			{{index+1}}、{{item.name}}
+		</view>
+		
+	</view>
+</view>
+
+<view class="martop15">
+	<view class="titlebox">
+		2、二层嵌套循环
+	</view>
+	
+	<view class="martop15">
+		
+		<view style="border-bottom:1px solid #48C23D" class="pad10" wx:for="{{twoList}}" wx:key="id">
+			
+			<view>
+				{{index+1}}、{{item.name}}
+			</view>
+			
+			<view wx:for="{{item.twodata}}" wx:for-item="twodata" wx:key="id">
+				----{{twodata.name}}---{{item.name}}
+			</view>
+			
+		</view>
+		
+	</view>
+</view>
+
+<view class="martop15">
+	<view class="titlebox">
+		3、wx:for循环没有使用key唯一标识符
+	</view>
+	
+	<view class="textcenter">
+		
+	</view>
+	
+	
+	<view class="martop15">
+		
+		<view wx:for="{{notkeylist}}">
+			
+			<view>
+				{{index+1}}、{{item.name}}
+			</view>
+			
+			<view>
+				<switch/>
+			</view>
+			
+		</view>
+		
+	</view>
+	
+	<view class="martop15">
+		<button bindtap="notkey_addnewdata"> 增加数据  </button>
+	</view>
+
+
+	
+</view>
+
+
+
+<view class="martop15">
+	<view class="titlebox">
+		4、wx:for循环使用了key唯一标识符
+	</view>
+	
+	<view class="textcenter">
+		
+	</view>
+	
+	
+	<view class="martop15">
+		
+		<view wx:for="{{usekeylist}}" wx:key="id" data-id="{{item.id}}">
+			
+			<view>
+				{{index+1}}、{{item.id}}{{item.name}}
+			</view>
+			
+			<view>
+				<switch/>
+			</view>
+			
+		</view>
+		
+	</view>
+	
+	<view class="martop15">
+		<button bindtap="usekey_addnewdata"> 增加数据  </button>
+	</view>
+
+
+	
+</view>
+	
+<view style="height:500px;"></view>	
+	
+</view>

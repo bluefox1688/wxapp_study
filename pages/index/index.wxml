@@ -4,7 +4,8 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
+  <view class="usermotto textcenter">
     <text class="user-motto">{{motto}}</text>
+    <view class="color888 font12 martop15">请点击右下角的学习教程列表</view>
   </view>
 </view>
